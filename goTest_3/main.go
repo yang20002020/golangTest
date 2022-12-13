@@ -38,7 +38,7 @@ func main() {
 	narr := make([]int, 501)
 	n := 0
 	for i := 0; i < N; i++ {
-		fmt.Scan(&n) //按回车才会继续
+		fmt.Scan(&n) //按回车,,,才会继续
 
 		if narr[n] > 0 {
 			continue
