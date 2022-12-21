@@ -28,6 +28,7 @@ hello nowcoder
 */
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
+	//在终端输入scanner.Scan()
 	if scanner.Scan() {
 		b := scanner.Text()
 		fmt.Println(b)
